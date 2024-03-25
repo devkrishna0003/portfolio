@@ -1,0 +1,38 @@
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.skillCard {
+  background-color: #393e46;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.skillIcon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.skillContent h2 {
+  margin-bottom: 5px;
+}
+.skillHeading {
+  font-size: 2rem;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1.2px solid #be7b72;
+  align-items: center;
+  justify-content: center;
+}
+.skillLevel {
+  font-style: italic;
+}

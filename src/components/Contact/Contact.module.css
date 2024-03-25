@@ -1,0 +1,94 @@
+.contact {
+  padding-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #393e46;
+}
+.mainContainer {
+  display: flex;
+  margin-top: 15px;
+}
+.heading h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+.contactMethods {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.contactMethod {
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+.mail {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.emailSection {
+  text-align: center;
+  width: 60%;
+}
+
+.emailForm {
+  background-color: #222831;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #393e46;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #711db0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5b0f8e;
+}
+.left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

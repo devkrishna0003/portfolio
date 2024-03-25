@@ -1,0 +1,21 @@
+.aboutMe {
+  padding: 20px;
+  background-color: #222831; /* Light gray background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 70px 30px;
+  margin: 10px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #b9bfc5; /* Dark gray text color */
+}
+
+.signature {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 16px;
+  color: #6c757d; /* Gray text color */
+}

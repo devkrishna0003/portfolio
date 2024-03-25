@@ -1,0 +1,22 @@
+/* Services.module.css */
+
+.services {
+  display: flex;
+  flex-wrap: wrap; /* Enable flex wrapping */
+  justify-content: center;
+}
+
+.serviceCard {
+  background-color: #222831;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px; /* Set a fixed width for each card */
+  min-width: 280px; /* Set a minimum width to prevent cards from shrinking too much */
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
