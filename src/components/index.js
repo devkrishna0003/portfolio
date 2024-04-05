@@ -5,5 +5,6 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Services from "./Services/Services";
 import Skills from "./Skills/Skill";
+import Project from "./Projects/Project";
 
-export { About, Contact, Footer, Header, Home, Services, Skills };
+export { About, Contact, Footer, Header, Home, Services, Skills, Project };

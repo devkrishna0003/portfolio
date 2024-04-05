@@ -7,6 +7,7 @@ import ecom from "../../assets/ecom.png";
 import password from "../../assets/password.png";
 import qr from "../../assets/qr.png";
 import weather from "../../assets/weather.png";
+import Project from "../Projects/Project";
 
 const Home = () => {
   return (
@@ -42,101 +43,16 @@ const Home = () => {
           <h2 className={styles.recentProjectsHeading}>My recent projects</h2>
         </div>
         <div className={styles.allCards}>
-          <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <img src={qr} alt="" />
-            </div>
-            <div className={styles.projectButtons}>
-              <Link
-                to="https://github.com/devkrishna0003/qr-code-generator"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.hireBtn}>GitHub</button>
-              </Link>
-              <Link
-                to="https://qrcodebykrishna.netlify.app/"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.contactBtn}>Live Demo</button>
-              </Link>
-            </div>
-          </div>
-          <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <img src={ecom} alt="" />
-            </div>
-            <div className={styles.projectButtons}>
-              <Link
-                to="https://github.com/devkrishna0003/ecommerce-cart"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.hireBtn}>GitHub</button>
-              </Link>
-              <Link
-                to="https://e-commerce-addtocart-app.netlify.app/"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.contactBtn}>Live Demo</button>
-              </Link>
-            </div>
-          </div>
-          <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <img src={weather} alt="" />
-            </div>
-            <div className={styles.projectButtons}>
-              <Link
-                to="https://github.com/devkrishna0003/weather"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.hireBtn}>GitHub</button>
-              </Link>
-              <Link
-                to="https://weathersreporting.netlify.app/"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.contactBtn}>Live Demo</button>
-              </Link>
-            </div>
-          </div>
-          <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <img src={password} alt="" />
-            </div>
-            <div className={styles.projectButtons}>
-              <Link
-                to="https://github.com/devkrishna0003/Password-Generator"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.hireBtn}>GitHub</button>
-              </Link>
-              <Link
-                to="https://random-password-react-app.netlify.app/"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.contactBtn}>Live Demo</button>
-              </Link>
-            </div>
-          </div>
-          <div className={styles.projectCard}>
-            <div className={styles.projectImage}>
-              <img src={currency} alt="" />
-            </div>
-            <div className={styles.projectButtons}>
-              <Link
-                to="https://github.com/devkrishna0003/Currency-Converter"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.hireBtn}>GitHub</button>
-              </Link>
-              <Link
-                to="https://currency-converter-using-react-app.netlify.app/"
-                target="_blank"
-                className={styles.button}>
-                <button className={styles.contactBtn}>Live Demo</button>
-              </Link>
-            </div>
-          </div>
+          <Project
+            liveUrl={"https://qrcodebykrishna.netlify.app/"}
+            gitUrl={"https://github.com/devkrishna0003/qr-code-generator"}
+            img={qr}
+          />
+          <Project
+            liveUrl="https://github.com/devkrishna0003/ecommerce-cart"
+            gitUrl="https://e-commerce-addtocart-app.netlify.app/"
+            img={ecom}
+          />
         </div>
       </div>
     </div>

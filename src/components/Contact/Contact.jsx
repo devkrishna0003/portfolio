@@ -4,10 +4,26 @@ import {
   FaLinkedin,
   FaInstagram,
   FaWhatsapp,
+  FaGithub,
 } from "react-icons/fa";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
+  const handleWhatsapp = () => {
+    window.open("https://wa.me/917458004392", "_blank");
+  };
+  const handleInstagram = () => {
+    window.open("https://www.instagram.com/mai.krishnahoon/", "_blank");
+  };
+  const handleEmail = () => {
+    window.open(`mailto:dev.krishna0003@gmail.com`, "_blank");
+  };
+  const handleLinkedIn = () => {
+    window.open("https://www.linkedin.com/in/devkrishna003/", "_blank");
+  };
+  const handleGithub = () => {
+    window.open("https://github.com/devkrishna0003/", "_blank");
+  };
   return (
     <div className={styles.contact}>
       <div className={styles.heading}>
@@ -17,21 +33,25 @@ const Contact = () => {
         <div className={styles.left}>
           <h2>Connect Now !</h2>
           <div className={styles.contactMethods}>
-            <div className={styles.contactMethod}>
+            <div onClick={handleWhatsapp} className={styles.contactMethod}>
               <FaWhatsapp className={styles.icon} />
               <p>WhatsApp</p>
             </div>
-            <div className={styles.contactMethod}>
+            <div onClick={handleEmail} className={styles.contactMethod}>
               <FaEnvelope className={styles.icon} />
               <p>E-mail</p>
             </div>
-            <div className={styles.contactMethod}>
+            <div onClick={handleLinkedIn} className={styles.contactMethod}>
               <FaLinkedin className={styles.icon} />
               <p>LinkedIn</p>
             </div>
-            <div className={styles.contactMethod}>
+            <div onClick={handleInstagram} className={styles.contactMethod}>
               <FaInstagram className={styles.icon} />
               <p>Instagram</p>
+            </div>
+            <div onClick={handleGithub} className={styles.contactMethod}>
+              <FaGithub className={styles.icon} />
+              <p>Github</p>
             </div>
           </div>
         </div>

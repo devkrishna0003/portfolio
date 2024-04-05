@@ -83,30 +83,8 @@
   flex-direction: column;
   gap: 10px;
 }
-.projectCard {
-  width: 27%;
-  height: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #ffffff19;
-  /* backdrop-filter: blur(4px); */
-  border-radius: 4px;
-  box-shadow: 0 0 10px #222831;
-}
-.projectImage {
-  height: 80%;
-  width: 100%;
-}
-.projectButtons {
-  height: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 8px;
-  padding-top: 5px;
-}
+
+
 .recentProjectsHeading {
   font-size: 1.5rem;
   font-weight: 500;
@@ -125,7 +103,4 @@
   flex-wrap: wrap;
 }
 
-.projectImage img {
-  width: 100%;
-  height: 100%;
-}
+
